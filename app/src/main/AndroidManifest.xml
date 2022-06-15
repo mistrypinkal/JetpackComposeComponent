@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackComposeComponent">
         <activity
+            android:name=".Modifiers"
+            android:exported="true"
+            android:label="@string/title_activity_modifiers"
+            android:theme="@style/Theme.JetpackComposeComponent.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/title_activity_main"
