@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.pm.jetpackcomposecomponent.ui.theme.JetpackComposeComponentTheme
 
-class MainActivity : ComponentActivity() {
+class ColumnRowActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
