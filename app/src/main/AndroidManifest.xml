@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackComposeComponent">
         <activity
-            android:name=".ImageCardActivity"
+            android:name=".feature.ImageCardActivity"
             android:exported="true"
             android:label="@string/title_activity_image_card"
             android:theme="@style/Theme.JetpackComposeComponent.NoActionBar">
