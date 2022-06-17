@@ -1,4 +1,4 @@
-package com.pm.jetpackcomposecomponent
+package com.pm.jetpackcomposecomponent.feature
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
