@@ -1,4 +1,4 @@
-package com.pm.jetpackcomposecomponent
+package com.pm.jetpackcomposecomponent.feature
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -13,8 +13,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
-import com.pm.jetpackcomposecomponent.ui.theme.JetpackComposeComponentTheme
 import kotlin.random.Random
 
 class StateComposeActivity : ComponentActivity() {
@@ -30,7 +28,7 @@ class StateComposeActivity : ComponentActivity() {
                         .weight(1f)
                         .fillMaxSize()
 
-                ){
+                ) {
                     color.value = it
                 }
                 Box(
@@ -47,19 +45,19 @@ class StateComposeActivity : ComponentActivity() {
 @Composable
 fun ColorBox(
     modifier: Modifier = Modifier,
-    updateColor: (Color) ->Unit
+    updateColor: (Color) -> Unit
 ) {
     Box(modifier = modifier
         .background(Color.Red)
         .clickable {
-           updateColor(
+            updateColor(
                 Color(
-                   Random.nextFloat(),
-                   Random.nextFloat(),
-                   Random.nextFloat(),
-                   1f
-               )
-           )
+                    Random.nextFloat(),
+                    Random.nextFloat(),
+                    Random.nextFloat(),
+                    1f
+                )
+            )
         }
     )
 }
