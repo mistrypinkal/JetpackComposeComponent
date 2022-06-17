@@ -6,4 +6,5 @@
     <string name="title_activity_style">StyleActivity</string>
     <string name="title_activity_state_compose">StateComposeActivity</string>
     <string name="title_activity_textfield_button_component">TextfieldButtonComponent</string>
+    <string name="title_activity_list_compose">ListComposeActivity</string>
 </resources>
