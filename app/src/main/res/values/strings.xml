@@ -4,4 +4,5 @@
     <string name="title_activity_modifiers">Modifiers</string>
     <string name="title_activity_image_card">ImageCardActivity</string>
     <string name="title_activity_style">StyleActivity</string>
+    <string name="title_activity_state_compose">StateComposeActivity</string>
 </resources>
