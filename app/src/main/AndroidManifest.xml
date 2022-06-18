@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackComposeComponent">
         <activity
-            android:name=".TextFieldButtonComponent"
+            android:name=".ListComposeActivity"
             android:exported="true"
-            android:label="@string/title_activity_textfield_button_component"
+            android:label="@string/title_activity_list_compose"
             android:theme="@style/Theme.JetpackComposeComponent.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".feature.TextFieldButtonComponent"
+            android:exported="true"
+            android:label="@string/title_activity_textfield_button_component"
+            android:theme="@style/Theme.JetpackComposeComponent.NoActionBar" />
         <activity
             android:name=".feature.StateComposeActivity"
             android:exported="true"
