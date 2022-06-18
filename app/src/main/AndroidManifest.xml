@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackComposeComponent">
         <activity
-            android:name=".StyleActivity"
+            android:name=".StateComposeActivity"
             android:exported="true"
-            android:label="@string/title_activity_style"
+            android:label="@string/title_activity_state_compose"
             android:theme="@style/Theme.JetpackComposeComponent.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,11 +21,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".feature.StyleActivity"
+            android:exported="true"
+            android:label="@string/title_activity_style"
+            android:theme="@style/Theme.JetpackComposeComponent.NoActionBar" />
+        <activity
             android:name=".feature.ImageCardActivity"
             android:exported="true"
             android:label="@string/title_activity_image_card"
             android:theme="@style/Theme.JetpackComposeComponent.NoActionBar" />
-
         <activity
             android:name=".feature.ModifiersActivity"
             android:exported="true"
