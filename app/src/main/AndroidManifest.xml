@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JetpackComposeComponent">
         <activity
-            android:name=".MainActivity"
+            android:name=".ModifiersActivity"
             android:exported="true"
-            android:label="@string/title_activity_main"
+            android:label="@string/title_activity_modifiers"
             android:theme="@style/Theme.JetpackComposeComponent.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".feature.ColumnRowActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.JetpackComposeComponent.NoActionBar" />
     </application>
 
 </manifest>
