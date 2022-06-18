@@ -3,4 +3,5 @@
     <string name="title_activity_main">ColumnRowActivity</string>
     <string name="title_activity_modifiers">Modifiers</string>
     <string name="title_activity_image_card">ImageCardActivity</string>
+    <string name="title_activity_style">StyleActivity</string>
 </resources>
